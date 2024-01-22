@@ -1,0 +1,47 @@
+[
+	{
+        "keys": ["super+shift+k"],
+        "command": "reveal_in_side_bar"
+    },
+    {
+        "keys": ["super+shift+o"],
+        "command": "prompt_add_folder"
+    },
+    { 
+        "keys": ["ctrl+t"], "command": "terminus_open", "args": {
+            "cmd": "ipython",
+            "cwd": "${file_path:${folder}}"
+        }
+    },
+    {
+        "keys": ["super+shift+s"],
+        "command": "auto_save"
+    },
+    {
+        "keys": ["ctrl+alt+left"]
+        ,"command": "set_layout"
+        ,"args": {
+            "cols": [0.0, 0.75, 1.0]
+            ,"rows": [0.0, 1.0]
+            ,"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+        }
+    },
+    {
+        "keys": ["ctrl+alt+right"]
+        ,"command": "set_layout"
+        ,"args": {
+            "cols": [0.0, 0.25, 1.0]
+            ,"rows": [0.0, 1.0]
+            ,"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+        }
+    },
+    {
+        "keys": ["ctrl+alt+up"]
+        ,"command": "set_layout"
+        ,"args": {
+            "cols": [0.0, 0.5, 1.0]
+            ,"rows": [0.0, 1.0]
+            ,"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+        }
+    }
+]
